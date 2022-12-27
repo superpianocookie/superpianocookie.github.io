@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/huaizhupeng.jpg" style="height:500px">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/skiing.jpg" style="height:500px">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/light_house_park.jpg" style="height:500px">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<!--
+<div class="crossfade">
+  <figure></figure>
+  <figure></figure>
+  <figure></figure>
+  <figure></figure>
+  <figure></figure>
+</div>
+-->
+
+<div class="tab">
+  <button class="tablinks" onclick="openTAB(event, 'Home')" id="defaultOpen">Home</button>
+  <button class="tablinks" onclick="openTAB(event, 'Videos')">Videos</button>
+  <button class="tablinks" onclick="openTAB(event, 'Awards')">Awards</button>
+</div>
+
+<div id="Home" class="tabcontent">
+  <h2 style="color:white;">All About Me</h2>
+  <p style="color:white;">My name is Huaizhu Peng. I am seven years old. I am in second grade. I likes chocolates, cookies, and piano.</p>
+  <p style="color:white;">I want to be a scientist when I grow up.</p>
+</div>
+
+<div id="Awards" class="tabcontent">
+  <h2 style="color:white;">Everything starts little and small, so am I!</h2>
+</div>
+
+<div id="Videos" class="tabcontent">
+  <h2 style="color:white;">Hope you enjoy my piano music and fun ideas</h2>
+  
+  <p style="color:white;" style="font-size:16px;">Sonatina in C, Op. 55, No. 1 by Friedrich Kuhlau</p>
+  <div class="row">
+    <div id="container" class="column" class="playerbox">
+      <video id="vid6" controls width="320">
+      <source src="videos/2022_12_11_Sonatina_ChurchRecital_NewHaven.MP4" type="video/mp4">
+      </video>
+      <p style="font-size:12px;color:white;">
+        December 11, 2022 Piano Recital at the Bethesda Lutheran Church <br>
+      </p>
+    </div>
+    <div class="column">
+    </div>
+    <div class="column">
+    </div>
+  </div>
+
+  <p style="font-size:16px;color:white;"><br>Etude in A minor by Dmitry Kabalevsky</p>
+  <div class="row">
+    <div id="container" class="column" class="playerbox">
+      <video id="vid5" controls height="190">
+      <source src="videos/2022_10_01_Etude_A_Minor_CrescendoCompetetion.mp4" type="video/mp4">
+      </video>
+      <p style="font-size:12px;color:white;">
+        2022 Oct 1. First place at Crescendo Internation Competetion 2023 
+      </p>
+    </div>
+    <div class="column">
+    </div>
+    <div class="column">
+    </div>
+  </div>
+
+  <p style="font-size:16px;color:white;"><br>Chanson, Piano Adventures series, by Nancy Faber</p>
+  <div class="row">
+    <div id="container" class="column" class="playerbox">
+      <video id="vid4" controls height="200">
+      <source src="videos/2022_06_25_Chanson_NewHaven.MOV" type="video/mp4">
+      </video>
+      <p style="font-size:12px;color:white;">
+        2022 June 25. Casual play at home
+      </p>
+    </div>
+    <div class="column">
+    </div>
+    <div class="column">
+    </div>
+  </div>
+
+  <p style="font-size:16px;color:white;"><br>Capriccietto by William Gillock</p>
+  <div class="row">
+    <div id="container" class="column">
+        <video id="vid2" controls width="320">
+        <source src="videos/2022_06_06_SchoolTalentShow.MOV" type="video/mp4">
+        </video>
+      <p style="font-size:12px;color:white;">
+        2022 June 6. School Talent Show
+      </p>
+    </div>
+    <div id="container" class="column">
+      <video id="vid3" controls height="190">
+      <source src="videos/2022_06_12_CSMTA_recital_Fairfield.MOV" type="video/mp4">
+      </video>
+      <p style="font-size:12px;color:white;">
+        2022 June 12. CSMTA New Haven Chapter Spring Recital<br>
+      </p>
+    </div>
+    <div id="container" class="column">
+      <video id="vid1" controls height="190">
+      <source src="videos/2022_05_14_Capriccietto_LittleMozart.MOV" type="video/mp4">
+      </video>
+      <p style="font-size:12px;color:white;">
+        2022 May 14. First place at International Little Mozart Competition<br>
+      </p>
+  </div>
+</div>
+
+<script src="scripts/scripts.js">  </script>
+
+</body>
+</html> 
