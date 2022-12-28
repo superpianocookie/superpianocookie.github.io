@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  max-width: 1000px;
+  width: 126vh;
   background-color: #8A8A8A; 
   font-family: Verdana, sans-serif;
   margin-left: auto;
@@ -70,7 +70,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 1000px;
+  width: 126vh;
   height: 464px;
   position: relative;
   margin-left: auto;
