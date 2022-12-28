@@ -44,7 +44,7 @@ p {
   padding: 1% 1%;
   width: var(--thirdgw);
   transition: 0.2s;
-  font-size: 20px;
+  font-size: 1.5vw;
   color: white;
 }
 
