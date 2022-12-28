@@ -3,6 +3,7 @@
 :root {
   --gw: 66.67vw;
   --halfgw: 30.5vw;
+  --thirdgw: 22.2vw;
 }
 body {
   width: var(--gw);
@@ -39,7 +40,8 @@ p {
   border: 2% solid #AFAFAF;
   outline: none;
   cursor: pointer;
-  padding: 1.2vh 7.46vw;
+  padding: 1% 1%;
+  width: var(--thirdgw);
   transition: 0.2s;
   font-size: 20px;
   color: white;
