@@ -1,10 +1,7 @@
 
 /****************** page property ******************/
-* {
-  box-sizing: border-box;
-}
 body {
-  width: 126vh;
+  width: 100vh;
   height: 100vh;
   height: calc(var(--vh, 1vh)*100);
   background-color: #8A8A8A; 
@@ -14,8 +11,8 @@ body {
 }
 p {
   /*line-height: 32px;   /* within paragraph */
-  margin-top: 0px;
-  margin-bottom: 0px; /* between paragraphs */
+  margin-top: 6px;
+  margin-bottom: 6px; /* between paragraphs */
   margin-left: 2px;
   margin-right: 2px; /* between paragraphs */
   }
@@ -25,9 +22,10 @@ p {
 
 /* Style the tab */
 .tab {
+  width: 99.8vh;
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #E1E1E1;
+  background-color: #D1D1D1;
 }
 
 /* Style the buttons inside the tab */
@@ -37,9 +35,10 @@ p {
   border: 1px solid #AFAFAF;
   outline: none;
   cursor: pointer;
-  padding: 10px 80px;
+  padding: 10px 30px;
   transition: 0.2s;
   font-size: 20px;
+  color: white;
 }
 
 /* Change background color of buttons on hover */
@@ -49,16 +48,17 @@ p {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #AFAFAF;
+  background-color: #A1A1A1;
 }
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
-  padding: 2px 12px;
+  width: 100vh;
+  /*display: none;*/
+  /*padding: 2px 12px;*/
   /*border: 1px solid #ccc;*/
-  border: none;
-  border-top: none;
+  /*border: none;
+  border-top: none;*/
 }
 
 /********************* slide show of key figures ***********************/
@@ -72,11 +72,11 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 126vh;
-  height: 464px;
+  width: 100vh;
+  height: 362px;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
   /*margin: auto;*/
 }
 
@@ -150,10 +150,10 @@ video {
     margin-right: auto;
 }
 #container{
-    width: 400px;
-    height: 230px;
+    width: 100vh;
+    height: 120%;
     background: #B0B0B0;
-    padding: 0px;
-    margin: 1px;
+    padding: 1px;
+    margin: 2px;
     border: 1px transparent blue;
 }
