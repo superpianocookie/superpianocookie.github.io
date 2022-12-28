@@ -81,7 +81,7 @@ img {
 .slideshow-container {
   width: var(--gw);
   height: var(--halfgw);
-  position: relative;
+  /*position: relative;*/
   /*margin-left: auto;
   margin-right: auto;*/
   /*margin: auto;*/
@@ -111,9 +111,9 @@ img {
 .dot {
   height: 1vw;
   width: 1vw;
-  margin: 0 2px;
+  margin: 0 0px;
   background-color: #bbb;
-  border-radius: 90%;
+  border-radius: 100%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
