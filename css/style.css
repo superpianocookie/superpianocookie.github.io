@@ -32,10 +32,10 @@ p {
 .tab button {
   background-color: inherit;
   float: left;
-  border: 0.02% solid #AFAFAF;
+  border: 3% solid #AFAFAF;
   outline: none;
   cursor: pointer;
-  padding: 1.5% 12.46%;
+  padding: 1.5% 12.3%;
   transition: 0.2s;
   font-size: 20px;
   color: white;
