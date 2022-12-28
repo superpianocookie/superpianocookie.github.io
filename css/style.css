@@ -2,7 +2,7 @@
 /****************** page property ******************/
 :root {
   --gw: 66.67vw;
-  --halfgw: 30.5vw;
+  --halfgw: 32vw;
   --thirdgw: 22.2vw;
 }
 body {
@@ -29,8 +29,9 @@ p {
 .tab {
   width: var(--gw);
   overflow: hidden;
-  border: 0.01% solid #ccc;
-  background-color: #D1D1D1;
+  /*border: 0.00% solid #ccc;*/
+  margin-top: 0px;
+  background-color: #C1C1C1;
 }
 
 /* Style the buttons inside the tab */
@@ -54,7 +55,7 @@ p {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #A1A1A1;
+  background-color: #9A9A9A;
 }
 
 /* Style the tab content */
@@ -72,6 +73,8 @@ p {
 img {
   /*margin: auto;*/
   display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   width: var(--gw);
@@ -109,12 +112,13 @@ img {
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 1vw;
-  width: 1vw;
+  height: 0vw;
+  width: 0vw;
   margin: 0 0px;
   background-color: #bbb;
-  border-radius: 100%;
-  display: inline-block;
+  border-radius: 0%;
+  /*display: inline-block;*/
+  display: none;
   transition: background-color 0.6s ease;
 }
 
@@ -155,6 +159,10 @@ video {
     margin-bottom: 0.05%;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
+}
+.active{
+    outline: 0.5% solid blue;
 }
 #container{
     width: 33.33vw;
