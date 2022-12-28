@@ -5,6 +5,8 @@
 }
 body {
   width: 126vh;
+  height: 100vh;
+  height: calc(var(--vh, 1vh)*100);
   background-color: #8A8A8A; 
   font-family: Verdana, sans-serif;
   margin-left: auto;
