@@ -1,9 +1,9 @@
 
 /****************** page property ******************/
 body {
-  width: 100vh;
-  height: 100vh;
-  height: calc(var(--vh, 1vh)*100);
+  width: 66.67%;
+  /*height: 100vh;
+  height: calc(var(--vh, 1vh)*100);*/
   background-color: #8A8A8A; 
   font-family: Verdana, sans-serif;
   margin-left: auto;
@@ -22,7 +22,7 @@ p {
 
 /* Style the tab */
 .tab {
-  width: 100vh;
+  width: 90%;
   overflow: hidden;
   border: 0.01% solid #ccc;
   background-color: #D1D1D1;
@@ -32,10 +32,10 @@ p {
 .tab button {
   background-color: inherit;
   float: left;
-  border: 3% solid #AFAFAF;
+  border: 2% solid #AFAFAF;
   outline: none;
   cursor: pointer;
-  padding: 1.5% 12.3%;
+  padding: 1.2vh 7.46vw;
   transition: 0.2s;
   font-size: 20px;
   color: white;
@@ -53,7 +53,7 @@ p {
 
 /* Style the tab content */
 .tabcontent {
-  width: 100vh;
+  width: 90%;
   /*display: none;*/
   /*padding: 2px 12px;*/
   /*border: 1px solid #ccc;*/
@@ -72,7 +72,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 100vh;
+  width: 90%;
   height: 45.5vh;
   position: relative;
   /*margin-left: auto;
@@ -87,7 +87,7 @@ img {
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
+  width: 90%;
   text-align: center;
 }
 
@@ -102,11 +102,11 @@ img {
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
+  height: 1vw;
+  width: 1vw;
   margin: 0 2px;
   background-color: #bbb;
-  border-radius: 50%;
+  border-radius: 90%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
@@ -127,7 +127,7 @@ img {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 100vh) {
+@media only screen and (max-width: 90%) {
   .text {font-size: 11px}
 }
 
@@ -150,7 +150,7 @@ video {
     margin-right: auto;
 }
 #container{
-    width: 100vh;
+    width: 45%;
     height: 112%;
     background: #B0B0B0;
     padding: 0.5%;
