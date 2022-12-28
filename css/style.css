@@ -73,7 +73,7 @@ img {
 /* Slideshow container */
 .slideshow-container {
   width: 100vh;
-  height: 362px;
+  height: 45.5vh;
   position: relative;
   /*margin-left: auto;
   margin-right: auto;*/
@@ -127,7 +127,7 @@ img {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 100vh) {
   .text {font-size: 11px}
 }
 
@@ -151,7 +151,7 @@ video {
 }
 #container{
     width: 100vh;
-    height: 120%;
+    height: 112%;
     background: #B0B0B0;
     padding: 1px;
     margin: 2px;
