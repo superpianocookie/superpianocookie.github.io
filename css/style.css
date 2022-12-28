@@ -1,7 +1,11 @@
 
 /****************** page property ******************/
+:root {
+  --gw: 66.67vw;
+  --halfgw: 30.5vw;
+}
 body {
-  width: 66.67%;
+  width: var(--gw);
   /*height: 100vh;
   height: calc(var(--vh, 1vh)*100);*/
   background-color: #8A8A8A; 
@@ -22,7 +26,7 @@ p {
 
 /* Style the tab */
 .tab {
-  width: 90%;
+  width: var(--gw);
   overflow: hidden;
   border: 0.01% solid #ccc;
   background-color: #D1D1D1;
@@ -53,7 +57,7 @@ p {
 
 /* Style the tab content */
 .tabcontent {
-  width: 90%;
+  width: var(--gw);
   /*display: none;*/
   /*padding: 2px 12px;*/
   /*border: 1px solid #ccc;*/
@@ -68,12 +72,13 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: var(--gw);
 }
 
 /* Slideshow container */
 .slideshow-container {
-  width: 90%;
-  height: 27vw;
+  width: var(--gw);
+  height: var(--halfgw);
   position: relative;
   /*margin-left: auto;
   margin-right: auto;*/
@@ -127,7 +132,7 @@ img {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 90%) {
+@media only screen and (max-width: var(--gw)) {
   .text {font-size: 11px}
 }
 
@@ -150,10 +155,12 @@ video {
     margin-right: auto;
 }
 #container{
-    width: 45%;
+    width: 33.33vw;
     height: 112%;
     background: #B0B0B0;
     padding: 0.5%;
-    margin: 0.5%;
+    margin-top: 0;
+    margin-bottom: 1vw;
+    margin-left: 5vw;
     border: 0.5% transparent blue;
 }
