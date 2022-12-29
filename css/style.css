@@ -4,7 +4,7 @@
   --gw: 75vw;
   --halfgw: 36vw;
   --thirdgw: 25vw;
-  --quatergw:18.7vw;
+  --quatergw:18.5vw;
 }
 body {
   width: var(--gw);
