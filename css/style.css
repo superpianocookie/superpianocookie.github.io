@@ -1,15 +1,16 @@
 
 /****************** page property ******************/
 :root {
-  --gw: 66.67vw;
-  --halfgw: 32vw;
-  --thirdgw: 22.2vw;
+  --gw: 75vw;
+  --halfgw: 36vw;
+  --thirdgw: 25vw;
+  --quatergw:18.7vw;
 }
 body {
   width: var(--gw);
   /*height: 100vh;
   height: calc(var(--vh, 1vh)*100);*/
-  background-color: #8A8A8A; 
+  background-color: #9A9A9A; 
   font-family: Verdana, sans-serif;
   margin-left: auto;
   margin-right: auto;
@@ -42,7 +43,8 @@ p {
   outline: none;
   cursor: pointer;
   padding: 1% 1%;
-  width: var(--thirdgw);
+  /*width: var(--thirdgw);*/
+  width: var(--quatergw);
   transition: 0.2s;
   font-size: 20px;
   color: white;
