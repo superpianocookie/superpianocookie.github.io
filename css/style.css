@@ -4,7 +4,7 @@
   --gw: 75vw;
   --halfgw: 36vw;
   --thirdgw: 25vw;
-  --quatergw:18.5vw;
+  --quatergw:18.7vw;
 }
 body {
   width: var(--gw);
@@ -33,6 +33,9 @@ p {
   /*border: 0.00% solid #ccc;*/
   margin-top: 0px;
   background-color: #C1C1C1;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 0;
 }
 
 /* Style the buttons inside the tab */
